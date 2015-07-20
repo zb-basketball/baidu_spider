@@ -1,4 +1,5 @@
-#-*-coding:utf-8-*_
+#
+*-coding:utf-8-*_
 import bs4
 from bs4 import BeautifulSoup as bs
 import urllib2 as url
@@ -90,5 +91,5 @@ class BaiduSpider(object):
 
 
 if '__main__' == __name__:
-    baidu_spider = BaiduSpider("电子科技大学",2)
+    baidu_spider = BaiduSpider("East China Normal University",2)
     baidu_spider.start()
